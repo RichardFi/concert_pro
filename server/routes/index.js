@@ -83,7 +83,7 @@ router.get('/artist/:query', (req, res) => {
             },
             json: true
           };
-          // get artists information
+          // get related artists information
           request.get(options, function (error, response, body) {
             artists_info = body.artists
             const base_url_songkick = 'https://api.songkick.com/api/3.0/'
