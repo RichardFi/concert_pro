@@ -4,11 +4,11 @@ const request = require('request-promise');
 const async = require("async");
 
 // spotify client id
-const client_id = 'aed7d7c789e2434c8568a77ceb69e6c3';
+const client_id = '';
 // spotify secret
-const client_secret = '81ee62b844e2402880fcf73d7df40e20';
+const client_secret = '';
 // songkick key
-const songkick_key = '3LkVSFMuL9gYOW6b';
+const songkick_key = '';
 
 // the  application requests authorization
 const authOptions = {
